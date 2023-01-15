@@ -1,0 +1,69 @@
+.login{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.logo_prisma1{
+    width: 12rem;
+  height: 5rem;
+  margin-bottom: 1.5rem;
+}
+.barra1{
+    width: 100%;
+    height: 1rem;
+    background-color:rgb(41, 12, 146);
+    margin-bottom: 2rem;
+}
+.login__container{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 15px;
+}
+.email_input{
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(33, 9, 119);
+    padding-left: 1rem;
+}
+.password_input{
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(33, 9, 119);
+    padding-left: 1rem;
+}
+.logo_login{
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    
+}
+.login_input{
+    cursor: pointer;
+    width: 30%;
+    height: 15%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    border: none;
+    background-color: rgb(33, 9, 119);
+    color: white;
+    font-size: 15px;
+}
+  @media (max-width: 850px){
+    .login__container{
+        width: 80%;
+    }
+  }

@@ -1,0 +1,81 @@
+.VerMovimiento {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 2rem;
+  background-color: #0e0e0e5f;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.VerMovimiento__container{
+  width: 23%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  gap: 1.3rem;
+  padding: 3rem;
+  /* padding-left: 4rem; */
+  background-color: #e8e8e8;
+}
+.VerMovimiento__form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.info_description input{
+  margin: .4rem 0 .5rem 0;
+  width: 100%;
+  height: 28px;
+  border: none;
+  background-color: #cdcdcdc0;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.movimiento_info {
+  display: flex;
+  flex-direction: column;
+}
+.movimiento_info div{
+  padding-left: 10px;
+}
+.movimiento_info input{
+  margin-bottom: 13px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.valor_info input{
+  width: 100%;
+  height: 30px;
+  margin-top: .4rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #cdcdcdc0;
+  font-size: 15px;
+  padding-left: 5px;
+}
+input:focus{
+  background-color: #fff;
+  outline: none;
+}
+.newRegistro__buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.newRegistro__buttons button{
+  padding: .5rem;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(41, 16, 131);
+  color: white; 
+}
+@media (max-width: 850px) {
+  .VerMovimiento__container{
+      width: 80%;
+      height: 80%;
+  }
+}

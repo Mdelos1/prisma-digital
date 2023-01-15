@@ -1,0 +1,81 @@
+.logo_backgrnd{
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+
+}
+.barra{
+  height: 1rem;
+  background-color: rgb(47, 12, 177);
+}
+.logo_prisma{
+  width: 12rem;
+  height: 5rem;
+}
+.info_backgrnd{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.info_card{
+  width: 40%;
+  height: 33rem;
+  background-color: whitesmoke;
+  padding: 2rem;
+  padding-left: 5rem;
+  overflow-y: auto;
+}
+.info_movimientos{
+  background-color: #ffffff;
+  width: 100%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info_details{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+.btns_home{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn_verMas{
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 15rem;
+  height: 2rem;
+  border: none;
+  background-color: rgb(204, 204, 204);
+}
+.btn_registro_movimiento{
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50px;
+  font-size: 40px;
+  margin-top: 1rem;
+  background-color: rgb(47, 12, 177);
+  color: white;
+  border: none;
+}
+
+@media (max-width: 850px) {
+  .info_card{
+      width: 80%;
+      padding: 1rem;
+  }
+  .info_details{
+    width: 10rem;
+    padding: 0;
+  }
+}

@@ -1,0 +1,12 @@
+@import url('./styles/home/Home.css');
+@import url('./styles/home/NewRegistro.css');
+@import url('./styles/home/VerMovimiento.css');
+
+@import url('./styles/login/login.css');
+@import url('./styles/login/register.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
